@@ -15,8 +15,8 @@ def auth() -> PlexServer:
     """
     Authenticate to Plex
     """
-    baseurl = "http://10.0.0.19:32400"
-    token = "Ly7ZsyB6Vdftdzh4WfF9"
+    baseurl = "http://10.0.0.19:32400"  # Update with Plex URL
+    token = "Ly7ZsyB6Vdftdzh4WfF9"  # Add Plex Token
     return PlexServer(baseurl, token)
 
 
